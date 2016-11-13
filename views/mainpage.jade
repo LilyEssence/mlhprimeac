@@ -13,57 +13,22 @@ html(lang='en')
     .container-fluid
       .row
         .col-md-12
-          h3.text-center
-            | Within the past hour, there have been XXX tweets about the temperature. 
-      .row
+          h1.text-center 
+            strong @MLHPrimeAC, there have been #{totalvotes} tweets about the temperature. 
+      .row.text-center
         .col-md-6
           p
-            | IT'S TOO COLD 
-            | 00 
-            em
-              | Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.
-            |  Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. 
-            small
-              | Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.
+            | IT'S TOO COLD
           p
-            | Lorem ipsum dolor sit amet, 
-            strong consectetur adipiscing elit
-            | . Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. 
-            em
-              | Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.
-            |  Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. 
-            small
-              | Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.
+            | #{coldvotes}
         .col-md-6
           p
-            | Lorem ipsum dolor sit amet, 
-            strong consectetur adipiscing elit
-            | . Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. 
-            em
-              | Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.
-            |  Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. 
-            small
-              | Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.
+            | IT'S TOO HOT
           p
-            | Lorem ipsum dolor sit amet, 
-            strong consectetur adipiscing elit
-            | . Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. 
-            em
-              | Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.
-            |  Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. 
-            small
-              | Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.
+            | #{hotvotes}
       .row
         .col-md-12
-          p
-            | Lorem ipsum dolor sit amet, 
-            strong consectetur adipiscing elit
-            | . Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. 
-            em
-              | Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.
-            |  Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. 
-            small
-              | Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.
-    script(src='js/jquery.min.js')
+          p.text-center
+            | Tweet @MLHPrimeAC to vote! #toocold or #toohot
     script(src='js/bootstrap.min.js')
     script(src='js/scripts.js')
